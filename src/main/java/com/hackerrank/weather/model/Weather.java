@@ -23,78 +23,80 @@ public class Weather {
     public Weather() {
     }
 
-    public Weather(Date dateRecorded, String city, String state, Float lat, Float lon, Double temperature) {
-        this.dateRecorded = dateRecorded;
-        this.lat = lat;
-        this.lon = lon;
-        this.city = city;
-        this.state = state;
-        this.temperature = temperature;
+    public Weather(final Date dateRecorded, final String city, final String state, final Float lat, final Float lon,
+        final Double temperature) {
+      this.dateRecorded = dateRecorded;
+      this.lat = lat;
+      this.lon = lon;
+      this.city = city;
+      this.state = state;
+      this.temperature = temperature;
     }
 
-    public Weather(Integer id, Date dateRecorded, String city, String state, Float lat, Float lon, Double temperature) {
-        this.id = id;
-        this.dateRecorded = dateRecorded;
-        this.lat = lat;
-        this.lon = lon;
-        this.city = city;
-        this.state = state;
-        this.temperature = temperature;
+    public Weather(final Integer id, final Date dateRecorded, final String city, final String state, final Float lat,
+        final Float lon, final Double temperature) {
+      this.id = id;
+      this.dateRecorded = dateRecorded;
+      this.lat = lat;
+      this.lon = lon;
+      this.city = city;
+      this.state = state;
+      this.temperature = temperature;
     }
 
     public Integer getId() {
-        return id;
+      return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setId(final Integer id) {
+      this.id = id;
     }
 
     public Date getDateRecorded() {
-        return dateRecorded;
+      return dateRecorded;
     }
 
-    public void setDateRecorded(Date dateRecorded) {
-        this.dateRecorded = dateRecorded;
+    public void setDateRecorded(final Date dateRecorded) {
+      this.dateRecorded = dateRecorded;
     }
 
     public String getCity() {
-        return city;
+      return city;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setCity(final String city) {
+      this.city = city;
     }
 
     public String getState() {
-        return state;
+      return state;
     }
 
-    public void setState(String state) {
-        this.state = state;
+    public void setState(final String state) {
+      this.state = state;
     }
 
     public Float getLat() {
-        return lat;
+      return lat;
     }
 
-    public void setLat(Float lat) {
-        this.lat = lat;
+    public void setLat(final Float lat) {
+      this.lat = lat;
     }
 
     public Float getLon() {
-        return lon;
+      return lon;
     }
 
-    public void setLon(Float lon) {
-        this.lon = lon;
+    public void setLon(final Float lon) {
+      this.lon = lon;
     }
 
     public Double getTemperature() {
-        return temperature;
+      return temperature;
     }
 
-    public void setTemperature(Double temperature) {
+    public void setTemperature(final Double temperature) {
         this.temperature = temperature;
     }
 }
